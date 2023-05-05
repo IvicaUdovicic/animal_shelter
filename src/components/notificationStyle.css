@@ -39,8 +39,6 @@ p {
   align-items: center;
 }
 
-
-
 .form-not {
   height: 250;
   width: 500px;
@@ -62,4 +60,3 @@ select {
   width: 90%;
   height: auto;
 }
-

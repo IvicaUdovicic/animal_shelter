@@ -1,7 +1,7 @@
 .table {
   border-collapse: separate;
   width: 100%;
-  border: #634B66 2px solid;
+  border: #634b66 2px solid;
   border-radius: 10px;
   text-align: center;
   margin-bottom: 10px;
@@ -40,8 +40,9 @@
   align-items: center;
 }
 
-.form input,select{
-    margin: 5px 5px 10px;
-    width: 90%;
-    height: auto;
+.form input,
+select {
+  margin: 5px 5px 10px;
+  width: 90%;
+  height: auto;
 }

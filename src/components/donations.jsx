@@ -144,7 +144,9 @@ function Donations({ donations, setDonations }) {
               <button type="submit">Submit Donation</button>
             </form>
           ) : (
-            <button className="btn-don" onClick={handleNewDonation}>Nova donacija</button>
+            <button className="btn-don" onClick={handleNewDonation}>
+              Nova donacija
+            </button>
           )}
         </div>
       )}
