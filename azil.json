@@ -1,0 +1,116 @@
+{
+  "obavijesti": [
+    {
+      "id": 1,
+      "naslov": "Svečano otvorenje",
+      "datum": "2023-04-17",
+      "tekst": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus mauris metus, vulputate vulputate neque blandit quis. Nunc ultrices diam ligula, nec commodo purus ullamcorper id. Donec aliquet libero eu tincidunt eleifend. Duis ornare tincidunt nisl quis fringilla. Curabitur bibendum metus mauris, in bibendum lectus vestibulum tristique. Sed in nibh facilisis tortor varius euismod at et lectus. In non congue elit. Donec blandit est consequat, porta tellus eu, placerat odio.",
+      "vazno": true
+    },
+    {
+      "id": 2,
+      "naslov": "Međunarodni dan mačaka",
+      "datum": "2023-02-17",
+      "tekst": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus mauris metus, vulputate vulputate neque blandit quis. Nunc ultrices diam ligula, nec commodo purus ullamcorper id. Donec aliquet libero eu tincidunt eleifend. Duis ornare tincidunt nisl quis fringilla. Curabitur bibendum metus mauris, in bibendum lectus vestibulum tristique. Sed in nibh facilisis tortor varius euismod at et lectus. In non congue elit. Donec blandit est consequat, porta tellus eu, placerat odio.",
+      "vazno": false
+    },
+    {
+      "naslov": "Nova obavijest Bajo ",
+      "datum": "2023-5-4",
+      "tekst": "Ovo Ce Bit Prva Nova Obavijest i vazna jer je prva",
+      "vazno": true,
+      "id": 3
+    }
+  ],
+  "donacije": [
+    {
+      "id": 1,
+      "kategorija": "trazi",
+      "tip": "Hrana",
+      "vrijednost": 25,
+      "opis": "Suha hrana za pse - 10kg"
+    },
+    {
+      "id": 2,
+      "kategorija": "donirano",
+      "tip": "Igračke",
+      "vrijednost": 15,
+      "opis": "Grebalica za mačke"
+    },
+    {
+      "id": 3,
+      "kategorija": "nudi",
+      "tip": "Ostalo",
+      "vrijednost": 25,
+      "opis": "Kavez za srednje papige"
+    }
+  ],
+  "zivotinje": [
+    {
+      "id": 1,
+      "ime": "Garfield",
+      "vrsta": "mačka",
+      "cip": false,
+      "godine": 2,
+      "opis": "Voli lazanje",
+      "pregled": "2022-09-23",
+      "udomljen": true,
+      "slika": "cat.png"
+    },
+    {
+      "id": 2,
+      "ime": "Floki",
+      "vrsta": "pas",
+      "cip": true,
+      "godine": 1,
+      "opis": "Više od običnog psa",
+      "pregled": "2022-02-13",
+      "udomljen": true,
+      "slika": "dog.png"
+    },
+    {
+      "id": 3,
+      "ime": "Žućo",
+      "vrsta": "mačka",
+      "cip": false,
+      "godine": 2,
+      "opis": "Voli spavanje i igru",
+      "pregled": "2023-09-23",
+      "udomljen": true,
+      "slika": "cat2.png"
+    },
+    {
+      "id": 4,
+      "ime": "ggg",
+      "vrsta": "macka",
+      "cip": true,
+      "godine": 3,
+      "opis": "maskagg",
+      "pregled": "2023-02-13",
+      "udomljen": false,
+      "slika": "dog2.png"
+    },
+    {
+      "id": 5,
+      "ime": "ssss",
+      "vrsta": "pas",
+      "cip": false,
+      "godine": 2,
+      "opis": "dasfdsadsa",
+      "pregled": "2023-05-01",
+      "udomljen": true,
+      "slika": "dog2.png"
+    },
+    {
+      "ime": "Fluffer",
+      "vrsta": "macka",
+      "godine": "3",
+      "cip": false,
+      "udomljen": false,
+      "pregled": "2023-05-04",
+      "opis": "Fluffy",
+      "slika": "cat2.png",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+.form-body h2 {
+  border: 3px solid brown;
+  border-radius: 15px;
+}
+
+.form {
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 10px 10px 10px 10px;
+  border: burlywood 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-name,
+.input-type,
+.input-year,
+.input-check,
+.input-description {
+  width: 400px;
+}
+
+.input-name input {
+  height: 30px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.input-type select {
+  margin: 10px;
+  height: 30px;
+  width: 400px;
+}
+
+.input-year input {
+  margin: 10px;
+  height: 30px;
+  width: 400px;
+}
+
+.input-check {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.input-check input {
+  margin-bottom: 10px;
+}
+
+.input-pregled input {
+  height: 30px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.input-pic select {
+  height: 30px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.input-description input {
+  height: 100px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.form-body button {
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 7px;
+}

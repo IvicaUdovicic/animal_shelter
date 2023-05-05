@@ -1,0 +1,11 @@
+.radio-btns label {
+  display: block;
+  text-align: left;
+}
+
+.radio-body{
+  border: 2px solid #634B66;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 7px;
+}

@@ -1,0 +1,65 @@
+.not-body {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.not-body button {
+  margin: 5px 0 5px 0;
+  text-align: end;
+  display: block;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.title-not {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  border-bottom: 2px solid;
+}
+
+.title-not h3 {
+  margin: 5px 50px 0px 50px;
+}
+
+p {
+  margin: 20px 50px 20px 50px;
+  text-align: center;
+}
+
+.not-con button {
+  margin-bottom: 10px;
+}
+
+.new-not {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.form-not {
+  height: 250;
+  width: 500px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 10px 10px 10px 10px;
+  border: burlywood 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-not input,
+select {
+  margin: 5px 5px 10px;
+  width: 90%;
+  height: auto;
+}
+

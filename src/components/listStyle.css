@@ -1,0 +1,59 @@
+.list {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 300px 300px 300px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.list img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.list-body {
+  display: flex;
+  justify-content: center;
+}
+
+.filter {
+  display: block;
+  padding-top: 25px;
+}
+
+.listPopUp {
+  height: auto;
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 10px 10px 10px 10px;
+  border: burlywood 3px solid;
+}
+
+.listPopUp img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.listPopUpBody {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.listPopUp button {
+  margin: 10px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
