@@ -137,9 +137,7 @@ function Notifications({ notifications, setNotifications }) {
         <div key={n.id} className="notifications">
           {n.vazno ? (
             <div className="not-body">
-              <div
-                style={{ border: "2px solid #634B66", borderRadius: "15px" }}
-              >
+              <div style={{ border: "2px solid Red", borderRadius: "15px" }}>
                 <div className="title-not">
                   <h3>{n.naslov}</h3>
                   <h3>{n.vazno ? <h3>Important!</h3> : <></>}</h3>

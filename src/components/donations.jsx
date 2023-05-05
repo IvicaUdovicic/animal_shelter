@@ -145,7 +145,7 @@ function Donations({ donations, setDonations }) {
             </form>
           ) : (
             <button className="btn-don" onClick={handleNewDonation}>
-              Nova donacija
+              New donation
             </button>
           )}
         </div>
@@ -154,7 +154,7 @@ function Donations({ donations, setDonations }) {
         <div key={d.id} className="donations">
           <table className="table">
             <thead>
-              <h2>Donated:</h2>
+              <h2 style={{ textDecoration: "underline" }}>Donated:</h2>
               <tr>
                 <th>Type</th>
                 <th>Amount</th>
@@ -164,7 +164,7 @@ function Donations({ donations, setDonations }) {
             <tbody>
               <tr>
                 <td>{d.tip}</td>
-                <td>{d.vrijednost}</td>
+                <td>{d.vrijednost}€</td>
                 <td>{d.opis}</td>
                 <td>
                   {isAdmin ? (
@@ -199,7 +199,7 @@ function Donations({ donations, setDonations }) {
         <div key={d.id} className="donations">
           <table className="table">
             <thead>
-              <h2>Needed:</h2>
+              <h2 style={{ textDecoration: "underline" }}>Needed:</h2>
               <tr>
                 <th>Type</th>
                 <th>Amount</th>
@@ -209,7 +209,7 @@ function Donations({ donations, setDonations }) {
             <tbody>
               <tr>
                 <td>{d.tip}</td>
-                <td>{d.vrijednost}</td>
+                <td>{d.vrijednost}€</td>
                 <td>{d.opis}</td>
                 <td>
                   {isAdmin ? (
@@ -247,7 +247,7 @@ function Donations({ donations, setDonations }) {
         <div key={d.id} className="donations">
           <table className="table">
             <thead>
-              <h2>Offered:</h2>
+              <h2 style={{ textDecoration: "underline" }}>Offered:</h2>
               <tr>
                 <th>Type</th>
                 <th>Amount</th>
@@ -257,7 +257,7 @@ function Donations({ donations, setDonations }) {
             <tbody>
               <tr>
                 <td>{d.tip}</td>
-                <td>{d.vrijednost}</td>
+                <td>{d.vrijednost}€</td>
                 <td>{d.opis}</td>
                 <td>
                   {isAdmin ? (

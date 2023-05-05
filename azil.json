@@ -20,6 +20,13 @@
       "tekst": "Ovo Ce Bit Prva Nova Obavijest i vazna jer je prva",
       "vazno": true,
       "id": 3
+    },
+    {
+      "naslov": "test",
+      "datum": "2023-5-5",
+      "tekst": "testiranje",
+      "vazno": true,
+      "id": 4
     }
   ],
   "donacije": [
@@ -87,18 +94,18 @@
       "godine": 3,
       "opis": "maskagg",
       "pregled": "2023-02-13",
-      "udomljen": false,
+      "udomljen": true,
       "slika": "dog2.png"
     },
     {
       "id": 5,
-      "ime": "ssss",
+      "ime": "Gary",
       "vrsta": "pas",
       "cip": false,
       "godine": 2,
-      "opis": "dasfdsadsa",
+      "opis": "Voli gertait",
       "pregled": "2023-05-01",
-      "udomljen": true,
+      "udomljen": false,
       "slika": "dog2.png"
     },
     {
@@ -111,6 +118,17 @@
       "opis": "Fluffy",
       "slika": "cat2.png",
       "id": 6
+    },
+    {
+      "ime": "pas",
+      "vrsta": "macka",
+      "godine": "121",
+      "cip": false,
+      "udomljen": true,
+      "pregled": "2023-05-03",
+      "opis": "m,nnmnm,",
+      "slika": "ostalo.png",
+      "id": 7
     }
   ]
 }
